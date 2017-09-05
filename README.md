@@ -11,8 +11,10 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
   * Set the HTML for every element or get the html for the first element.
 
 - .append() -
+  * Insert the specified content to the end of each element.
 
 - .attr() -
+  * Get the attributes value for the first element or set the attributes for every matched element.
 
 - .removeClass() -
 
