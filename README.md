@@ -7,34 +7,34 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
 
 ## DOM Manipulation
 
-- .html()
-  * Set the HTML for every element or get the html for the first element.
+* .html()
+  - Set the HTML for every element or get the html for the first element.
 
-- .append() -
-  * Insert the specified content to the end of each element.
+* .append()
+  - Insert the specified content to the end of each element.
 
-- .attr() -
-  * Get the attributes value for the first element or set the attributes for every matched element.
+* .attr()
+  - Get the attributes value for the first element or set the attributes for every matched element.
 
-- .removeClass() -
-  * Remove spcified class from the elements classList.
+* .removeClass()
+  - Remove spcified class from the elements classList.
 
-- .addClass() -
-  * Add a specified class to the elements classList.
+* .addClass()
+  - Add a specified class to the elements classList.
 
 ## DOM Traversal
 
-- .children() -
-  * Get the children for each element in the specified set of elements.
+* .children()
+  - Get the children for each element in the specified set of elements.
 
-- .parent() -
-  * Get the parents for each element in the specified set of elements.
+* .parent()
+  - Get the parents for each element in the specified set of elements.
 
-- .find() -
-  * Get the descendants of each element in the set based on a class name selector. 
+* .find()
+  - Get the descendants of each element in the set based on a class name selector.
 
 ## Ajax Requests
 
-- .ajax() -
+* .ajax()
 
-- .extend() -
+* .extend()
