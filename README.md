@@ -7,7 +7,7 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
 
 Download the repository and add ```lib``` to your javascript directory. Add the webpack.config.js file to your root directory. Next, add a script tag to the ```<head>``` of your html project.
 
-```<
+```
 <script type="text/javascript" src="./your_jacascript_directory_name/lib/bundle.js"></script>
 ```
 
@@ -15,29 +15,28 @@ Finally, run ```webpack --watch``` from the root of your directory and you'll be
 
 ## DOM Manipulation
 
-```.html()
-```
-- set the html for every element or get the html for the first element.
+- .html()
+* set the html for every element or get the html for the first element.
 
-.append() -
+- .append() -
 
-.attr() -
+- .attr() -
 
-.removeClass() -
+- .removeClass() -
 
-.addClass() -
+- .addClass() -
 
 
 ## DOM Traversal
 
-.children() -
+- .children() -
 
-.parent() -
+- .parent() -
 
-.find() -
+- .find() -
 
 ## Ajax Requests
 
-.ajax() -
+- .ajax() -
 
-.extend() - 
+- .extend() -
