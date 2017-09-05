@@ -17,9 +17,10 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
   * Get the attributes value for the first element or set the attributes for every matched element.
 
 - .removeClass() -
+  * Remove spcified class from the elements classList.
 
 - .addClass() -
-
+  * Add a specified class to the elements classList.
 
 ## DOM Traversal
 
