@@ -25,10 +25,13 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
 ## DOM Traversal
 
 - .children() -
+  * Get the children for each element in the specified set of elements.
 
 - .parent() -
+  * Get the parents for each element in the specified set of elements.
 
 - .find() -
+  * Get the descendants of each element in the set based on a class name selector. 
 
 ## Ajax Requests
 
