@@ -36,5 +36,7 @@ wiseDOM is a lightweight javascript library for manipulating and traversing the 
 ## Ajax Requests
 
 * .ajax()
+  - Creates and sends an asynchronous XMLHttpRequest by handling the open, onload and send functions.
 
 * .extend()
+  -
