@@ -1,13 +1,13 @@
-# wiseDOM
+# wiseDOMe
 
 ### Inspired by jQuery
 
-wiseDOM is a lightweight javascript library for manipulating and traversing the DOM. It works by wrapping DOM nodes in a dom_node_collection.js class. This allows the wrapped nodes access to functions designed to simplify and streamline common DOM manipulation and traversal needs. It also simplifies XMLHttpRequests by handling the open, onload, and send functions just like a Ajax request.
+wiseDOMe is a lightweight JavaScript library for manipulating and traversing the DOM. It is set up to help make it easier for developers to perform actions on HTML Elements and set or change values of HTML DOM Element properties. You can pass in a string value, an HTML Element or a function into wiseDOMe's $W function.
 
 ## Ajax Requests
 
 * .ajax()
-  - Creates and sends an asynchronous XMLHttpRequest by handling the open, onload and send functions. Takes success and error callbacks to be pushed onto the task queue after the async request has return a response from the sever. 
+  - Creates and sends an asynchronous XMLHttpRequest by handling the open, onload and send functions. Takes success and error callbacks to be pushed onto the task queue after the async request has return a response from the sever.
 
 ## DOM Manipulation
 
