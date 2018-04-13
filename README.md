@@ -2,7 +2,7 @@
 
 ### Inspired by jQuery
 
-wiseDOMe is a lightweight JavaScript library for manipulating and traversing the DOM. It is set up to help make it easier for developers to perform actions on HTML Elements and set or change values of HTML DOM Element properties. You can pass in a string value, an HTML Element or a function into wiseDOMe's $W function.
+WiseDOMe is a lightweight JavaScript library for manipulating and traversing the DOM. It is set up to help make it easier for developers to perform actions on HTML Elements and set or change values of HTML DOM Element properties. You can pass in a string value, an HTML Element or a function into wiseDOMe's $W function.
 
 ## Ajax Requests
 
