@@ -23,32 +23,85 @@ ol, ul {
 
 /* main content styles */
 
+body {
+  background-image: url("https://res.cloudinary.com/aptquirks/image/upload/v1524339205/koolau-mountain-range-oahu-hawaii.adapt.1190.1_fxj9aa.jpg");
+  background-size: cover;
+}
+
 .main-content {
   height: 100vh;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 3fr 2fr;
   grid-gap: 20px;
-  width: 80%;
+  width: 60%;
   font-family: sans-serif;
 }
 
+.weather-main {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.image-and-temp {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  margin-top: 20px;
+}
+
+.city-name {
+  font-size: 30px;
+}
+
+li {
+  padding: 3px;
+}
+
+.temp {
+  font-size: 65px;
+}
+
+#weather-icon {
+  width: 70px;
+  height: auto;
+}
+
 #header {
-  background-color: lightgrey;
   border-radius: 10px;
   margin-top: 50px;
   text-align: center;
+  font-size: 60px;
+  background-color: rgba(128, 128, 128, 0.4);
+  color: white;
+  padding-top: 30px;
+}
+
+#main-decription {
+  font-size: 30px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .city-search {
-  background-color: lightgrey;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
-#search {
-  width: 300px;
-  height: 30px;
-  border-radius: 10px;
+.search {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
   font-size: 18px;
   padding-left: 10px;
+}
+
+.search-button {
+
 }
