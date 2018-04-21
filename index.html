@@ -5,29 +5,49 @@
     <script type="text/javascript" src="./lib/bundle.js" charset="utf-8"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk0Qg5Rix5gEaVgQlhixY53tuRexaiueo&libraries=places"></script>
     <title>wiseDOMe</title>
   </head>
   <body>
 
+    <div class="main-content">
 
-      <div class="main-content">
-    <header id="header">
+      <header id="header">
+        <h1>wiseDOMe Weather</h1>
+      </header>
 
-      <h1 id="header">wiseDOMe Weather</h1>
-      <h2 id="main-decription">
-        Search for a city below to use WiseDOMe's custom Ajax request
-      </h2>
-    </header>
-    <form class="city-search" action="index.html" method="post">
-      <input id="search" placeholder="enter a city..." type="text" name="" value="">
-      <input type="submit" name="button" value="submit">
-    </form>
-    </div>
+      <div class="weather-main">
+
+          <ul class="weather-left">
+            <li class="city-name">City</li>
+            <li class="day">Day</li>
+            <li class="time">Time</li>
+            <li class="description">Description</li>
+              <ul class="image-and-temp">
+                <li class="image"><img id="weather-icon" src="./assets/images/if_sun.png" alt="weather-icon"></li>
+                <li class="temp">58</li>
+              </ul>
+          </ul>
+
+          <ul class="weather-right">
+            <li class="percipitation">Percipitation: </li>
+            <li class="humidity">Humidity: </li>
+            <li class="wind">Wind: </li>
+          </ul>
+
+        </div>
+
+      <form class="city-search" action="index.html" method="post">
+        <input placeholder="Search"
+          class="search" id="autocomplete" type="text"></input>
+        <input id="search-button" type="submit" name="button"></input>
+      </form>
 
 
     <footer id="footer">
       &copy wiseDOMe 2018
     </footer>
 
+        </div>
   </body>
 </html>
