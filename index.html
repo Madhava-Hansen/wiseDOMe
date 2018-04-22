@@ -13,26 +13,28 @@
     <div class="main-content">
 
       <header id="header">
-        <h1>wiseDOMe Weather</h1>
+        <h1 class="main-title">wiseDOMe Weather</h1>
       </header>
 
       <div class="weather-main">
 
           <ul class="weather-left">
-            <li class="city-name">City</li>
-            <li class="day">Day</li>
-            <li class="time">Time</li>
-            <li class="description">Description</li>
+            <li class="city-name">London, UK</li>
+            <ul class="day">
+              <li class="day"></li>
+              <li id="time"></li>
+            </ul>
+            <li class="description"></li>
               <ul class="image-and-temp">
-                <li class="image"><img id="weather-icon" src="./assets/images/if_sun.png" alt="weather-icon"></li>
-                <li class="temp">58</li>
+                <li class="image"><img id="weather-icon" src="" alt="weather-icon"></li>
+                <li class="temp"></li>
+                <img class="degree" src="./assets/images/degree.png" alt="degree">
               </ul>
           </ul>
 
           <ul class="weather-right">
-            <li class="percipitation">Percipitation: </li>
-            <li class="humidity">Humidity: </li>
-            <li class="wind">Wind: </li>
+            <li class="humidity"></li>
+            <li class="wind"></li>
           </ul>
 
         </div>
@@ -40,13 +42,8 @@
       <form class="city-search" action="index.html" method="post">
         <input placeholder="Search"
           class="search" id="autocomplete" type="text"></input>
-        <input id="search-button" type="submit" name="button"></input>
+        <h3 id="search-button">Submit</h3>
       </form>
-
-
-    <footer id="footer">
-      &copy wiseDOMe 2018
-    </footer>
 
         </div>
   </body>
