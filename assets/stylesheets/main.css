@@ -62,7 +62,15 @@ body {
 
 .main-title {
   padding: 20px;
-  font-family: serif;
+  font-size: 70px;
+  font-family: 'Abel', cursive;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.sub-title {
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .image-and-temp {
@@ -81,23 +89,25 @@ body {
 
 .degree {
   position: absolute;
-  top: 19px;
-  left: 215px;
+  top: 22px;
+  left: 200px;
   width: 15px;
   height: auto;
 }
 
 .city-name {
   font-size: 25px;
+  font-weight: bold;
 }
 
 li {
   padding-bottom: 3px;
   font-size: 18px;
+  font-family: 'Abel', sans-serif;
 }
 
 .temp {
-  font-size: 95px;
+  font-size: 85px;
   padding-top: 0px;
   margin-left: 10px;
 }
@@ -155,5 +165,10 @@ li {
 
 #search-button:hover {
   cursor: pointer;
-  color: lightgrey;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
 }
