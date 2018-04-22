@@ -26,60 +26,93 @@ ol, ul {
 body {
   background-image: url("https://res.cloudinary.com/aptquirks/image/upload/v1524339205/koolau-mountain-range-oahu-hawaii.adapt.1190.1_fxj9aa.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-content {
   height: 100vh;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 3fr 2fr;
+  grid-template-rows: 2fr 3fr;
   grid-gap: 20px;
   width: 60%;
   font-family: sans-serif;
+  max-height: 600px;
 }
 
 .weather-main {
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 400px;
+  grid-template-columns: 2fr 1fr;
+  max-width: 500px;
+  min-width: 400px;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
+  padding-top: 30px;
+  box-shadow: 1px 1px 5px lightgrey;
+}
+
+.weather-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-title {
+  padding: 20px;
 }
 
 .image-and-temp {
+  position: relative;
   width: 200px;
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   margin-top: 20px;
 }
 
-.city-name {
-  font-size: 30px;
+.day-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50px;
 }
 
-li {
-  padding: 3px;
-}
-
-.temp {
-  font-size: 65px;
-}
-
-#weather-icon {
-  width: 70px;
+.degree {
+  position: absolute;
+  top: 19px;
+  left: 215px;
+  width: 15px;
   height: auto;
 }
 
+.city-name {
+  font-size: 25px;
+}
+
+li {
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+
+.temp {
+  font-size: 95px;
+  padding-top: 0px;
+  margin-left: 10px;
+}
+
+#weather-icon {
+  width: 90px;
+  height: auto;
+  margin-top: 8px;
+}
+
 #header {
+  margin: 0 auto;
   border-radius: 10px;
   margin-top: 50px;
   text-align: center;
   font-size: 60px;
-  background-color: rgba(128, 128, 128, 0.4);
+  background-color: rgba(128, 128, 128, 0.8);
   color: white;
-  padding-top: 30px;
 }
 
 #main-decription {
@@ -90,18 +123,28 @@ li {
 }
 
 .city-search {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
   margin: 0 auto;
   margin-top: 50px;
 }
 
 .search {
-  width: 400px;
+  width: 350px;
   height: 40px;
   border-radius: 5px;
   font-size: 18px;
   padding-left: 10px;
 }
 
-.search-button {
+#search-button {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
 
+#search-button:hover {
+  cursor: pointer;
+  color: lightgrey;
 }
